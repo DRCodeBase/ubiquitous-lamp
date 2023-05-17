@@ -1,27 +1,68 @@
-# ChoochFoundation
+# Chooch Foundation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.8.
+## Getting Started
 
-## Development server
+To contribute to this project, follow the steps below to set up your development environment.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Prerequisites
 
-## Code scaffolding
+Make sure you have the following software installed on your system:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Visual Studio Code](https://code.visualstudio.com/) - A lightweight and powerful code editor.
+- [Git](https://git-scm.com/) - Version control system for tracking changes in your codebase.
+- [Node.js 18](https://nodejs.org/) - JavaScript runtime environment for executing server-side JavaScript code.
+- [Angular CLI 15](https://angular.io/cli) - Command-line interface for Angular development.
 
-## Build
+### Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Download and install **Visual Studio Code** from the [official website](https://code.visualstudio.com/).
 
-## Running unit tests
+2. Install **Git** by following the instructions provided on the [official Git website](https://git-scm.com/).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Install **Node.js 18** by visiting the [official Node.js website](https://nodejs.org/) and downloading the appropriate installer for your operating system. Follow the installation instructions provided.
 
-## Running end-to-end tests
+4. Open a terminal or command prompt, and run the following command to install the **Angular CLI 15** globally:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```shell
+npm install -g @angular/cli@15
+```
 
-## Further help
+This will install the Angular CLI globally on your system.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Clone the Repository
+
+1. Open a terminal or command prompt.
+
+2. Change the current working directory to the location where you want to clone the repository.
+
+3. Run the following command to clone the repository:
+
+```shell
+git clone https://github.com/DRCodeBase/ubiquitous-lamp.git
+```
+
+### Start the Development Server
+
+1. Change the current working directory to the cloned repository:
+
+```shell
+cd ubiquitous-lamp
+```
+
+2. Install the project dependencies by running the following command:
+
+```shell
+npm install
+```
+
+3. Start the development server by running the following command:
+
+```shell
+ng serve
+```
+
+This will compile the project and start a local development server.
+
+4. Open your web browser and visit http://localhost:4200 to view the application.
+
+You are now ready to start contributing to the project!
