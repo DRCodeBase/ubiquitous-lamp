@@ -1,0 +1,4 @@
+# Ignore artifacts:
+.eslintrc.json
+dist
+coverage
